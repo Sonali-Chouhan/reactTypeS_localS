@@ -1,9 +1,12 @@
-import React from 'react';
+import React ,{ReactNode}from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 // import './Layout.css'
 
-const Layout = (props :any) => {
+type layoutProps={
+    children?: ReactNode
+}
+const Layout = (props :layoutProps) => {
     return(
         <div className='app'>
             <Header/>
