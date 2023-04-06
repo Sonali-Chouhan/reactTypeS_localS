@@ -1,0 +1,71 @@
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.center_wr {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+
+.menu {
+  width: 70%;
+  display: inline-block;
+}
+
+.header {
+
+  position: sticky;
+  top: 0;
+  padding: 12px 0px;
+  color: #ffffff;
+  text-align: end;
+}
+
+.header2 {
+  position: sticky;
+  top: 0;
+  padding: 12px 0px;
+  color: white;
+  text-align: end;
+}
+
+.menu ul li {
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 38px;
+  font-size: medium;
+
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li a:hover {
+  color: blue;
+}
+
+.tableMainDiv {
+  margin: 65px 32px;
+}
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+}
